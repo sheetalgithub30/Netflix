@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: -1%;
+}
+img {
+  width: 210px;
+  margin-left: 15%;
+  margin-top: 5%;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.content {
+  text-align: center;
+  margin-top: 15%;
+  color: white;
+  font-weight: 200;
+}
+h1 {
+  font-size: 55px;
+}
+#first {
+  font-size: 28px;
+}
+#second {
+  font-size: 23px;
+}
+body {
+  background-image: radial-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(https://assets.nflxext.com/ffe/siteui/vlv3/8f12b4f0-a894-4d5b-9c36-5ba391c63fbe/44355e66-dbf8-4dd8-ba6b-8e9e32ec6abd/IN-en-20230320-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+}
+
+button {
+  margin-top: 40px;
+  font-size: 15px;
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  display: inline-block;
+  font-weight: 600;
+  /* margin-left: 10px; */
+  margin-right: 18px;
+}
